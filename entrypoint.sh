@@ -6,7 +6,7 @@ cat > /usr/app/config.json << CONF
   "rpcEndpoint": "https://testnet.evm.nodes.onflow.org",
   "chainId": 545,
   "vglMarkup": 60000,
-  "cglMarkup": 35000
+  "cglMarkup": 150000
 }
 CONF
 node ./packages/cli/bin/skandha.js standalone
