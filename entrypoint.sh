@@ -5,7 +5,8 @@ cat > /usr/app/config.json << CONF
   "relayers": ["${MNEMONIC}"],
   "rpcEndpoint": "https://testnet.evm.nodes.onflow.org",
   "chainId": 545,
-  "vglMarkup": 60000
+  "vglMarkup": 60000,
+  "cglMarkup": 35000
 }
 CONF
 node ./packages/cli/bin/skandha.js standalone
